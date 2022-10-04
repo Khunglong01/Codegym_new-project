@@ -1,0 +1,3 @@
+vnd = int(input("Nhập số tiền USD:"))
+tygia = int(input("Nhập tỷ giá USD/VND:"))
+print("Giá trị quy đổi:", vnd*tygia
