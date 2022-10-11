@@ -1,0 +1,21 @@
+chieu_cao = int(input("Nhập chiều cao của bạn (cm):"))
+can_nang = int(input("Nhập cân nặng của bạn (kg):"))
+bmi = can_nang/chieu_cao/chieu_cao*10000
+print("Chỉ số của bạn là:",bmi)
+
+if bmi>40:
+    print("Béo phì độ III")
+elif bmi>=35:
+    print("Béo phì độ II")
+elif bmi>=30:
+    print("Béo phì độ I")
+elif bmi>=25:
+    print("Thừa cân")
+elif bmi>=18.5:
+    print("Bình thường")
+elif bmi>=17:
+    print("Gầy cấp độ I")
+elif bmi>=16:
+    print("Gầy cấp độ II")
+else:
+    print("Gầy cấp độ III")
