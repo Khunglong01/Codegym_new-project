@@ -1,0 +1,3 @@
+num = int(input("Nhập số bất kỳ:")
+msg = "số chẵn" if num %2 == 0 else "số lẻ"
+print(msg)
