@@ -1,0 +1,13 @@
+import turtle
+t=turtle.Turtle()
+r=100
+goc=20
+
+for i in range(360//goc):
+    t.circle(r,90)
+    t.circle(r/2,90)
+    t.circle(r,90)
+    t.circle(r/2,90)
+    t.right(goc)
+
+turtle.done()
